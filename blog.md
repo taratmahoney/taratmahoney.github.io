@@ -35,7 +35,7 @@ tag: blog
 <p>On building our first Rails apps and a few thoughts on women in tech</p>
 
 <h2 class="page-list-item">
-<a href="https://medium.com/the-chronicles-learning-web-development-at/the-chronicles-learning-web-development-at-bitmaker-labs-e8e91656c546" target="_blank">// Week 2</a>
+<a href="https://medium.com/the-chronicles-learning-web-development-at/the-chronicles-learning-web-development-at-bitmaker-labs-week-2-b5ce9524601a" target="_blank">// Week 2</a>
 </h2>
 <p>On taking the time to do the things you want to do, web servers, Sinatra, and building our first (very primitive) app</p>
 
