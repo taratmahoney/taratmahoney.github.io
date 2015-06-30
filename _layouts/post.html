@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h2 class="page-list-item">{{ page.category }} - {{ page.title }}</h2>
+    <p class="post-meta">{{ page.excerpt }}</p>
+    <p class="image-description"> {{ page.image_description }}</p>
+    <img class="post-image" src="{{ page.image }}">
+    <p class="image-description"> {{ page.image_2_description }}</p>
+    <img class="post-image" src="{{ page.image_2 }}">
+    <p class="image-description"> {{ page.image_3_description }}</p>
+    <img class="post-image" src="{{ page.image_3 }}">
+    <p class="image-description"> {{ page.image_4_description }} </p>
+    <img class="post-image" src="{{ page.image_4 }}">
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>

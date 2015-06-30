@@ -1,0 +1,10 @@
+# Site settings
+title: Tara Mahoney
+email: tara.mahoney@me.com
+description: Hey! I'm Tara. I'm a web designer and developer from Toronto, Ontario.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://taramahoney.com" # the base hostname & protocol for your site
+twitter_username: taratmahoney
+github_username:  taratmahoney
+# Build settings
+markdown: kramdown

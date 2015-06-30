@@ -1,0 +1,50 @@
+.left-pane{
+  background: url(/assets/bitmaker_pres_small.png) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 50%;
+   vertical-align: top;
+   padding-top: 80%;
+  
+  @include media($medium-screen-up){
+    padding-top: 40%;
+  }
+
+  @include media($large-screen-up){
+   background: url(/assets/bitmaker_pres.png) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+.right-pane {
+  background-color: $gray;
+  padding: 2% 10%;
+  @include media($large-screen-up){
+  float: right;
+  width: 50%;
+  height: 100%;
+  }
+}
+
+.pane-content h1{
+  font-size: 2.5em;
+  color: $orange;
+  text-decoration: none;
+}
+
+.tagline p {
+    color: $blue;
+  }
+
+

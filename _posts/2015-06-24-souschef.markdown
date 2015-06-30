@@ -1,0 +1,15 @@
+---
+  layout: post
+  title: "Souschef"
+  excerpt: "A software program that uses the Google text-to-speech API to read out a recipe to the user as he/she cooks. This app is scheduled to go live in mid July."
+  permalink: /work/souschef
+  category: "Work"
+  image: /assets/souschef-screencap.png 
+  image_description: "Home page"
+  image_2: /assets/souschef-add-recipe.png
+  image_2_description: "Add recipe page" 
+  image_3: /assets/recipe.png
+  image_3_description: "Show recipe page" 
+---
+
+Please <a href="mailto:tara.mahoney@me.com"> get in touch </a> if you'd like to know more about souschef!

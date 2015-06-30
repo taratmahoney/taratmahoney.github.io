@@ -1,0 +1,9 @@
+---
+  layout: post
+  title: "Mastery Over Mind"
+  excerpt: "A website I am building for a local Ottawa business."
+  permalink: /work/mastery_over_mind
+  category: Work
+---
+
+Coming soon!
