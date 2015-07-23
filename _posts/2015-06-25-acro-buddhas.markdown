@@ -1,7 +1,7 @@
 ---
   layout: post
   title: "Acro Buddhas"
-  excerpt: "A site I built for a team of personal trainers in Toronto. This iteration of the Acro Buddhas site will go live in the second week of July. A more robust version is in the process of being designed and is set to go live in early August."
+  excerpt: "A site I built for a team of personal trainers in Toronto. This iteration of the Acro Buddhas site can be found <a href="http://acrobuddhas.github.io/"> here </a>. A more robust version is in the process of being designed and is set to go live in early August."
   permalink: /work/acro_buddhas
   category: Work
   image: /assets/Desktop.png
