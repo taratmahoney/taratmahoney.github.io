@@ -1,15 +1,15 @@
 ---
   layout: post
   title: "So, you wanna be a freelancer?"
-  excerpt: "This is a talk I gave to Bitmaker Labs students in November 2015."
+  excerpt: "This is a talk I gave to Bitmaker students in November 2015."
   permalink: /blog/freelancing
   category: Blog
   image: "/assets/bitmaker-pres-2.jpg"
 ---
 
-I recently spoke at Bitmaker Labs about being a freelance web developer. 
+I recently spoke at <a href="www.bitmakerlabs.com">Bitmaker</a> about being a freelance web developer. 
 
-Bitmaker Labs runs a 9-week web development bootcamp in Toronto, Ontario. I was a part of their March 2015 cohort and graduated in May of the same year. Since graduating, I have been freelancing in Toronto as a web designer and developer using the skills I learned there.
+Bitmaker runs a 9-week web development bootcamp in Toronto, Ontario. I was a part of their March 2015 cohort and graduated in May of the same year. Since graduating, I have been freelancing in Toronto as a web designer and developer using the skills I learned there.
 
 As virgin programmers, Bitmaker alumni go out into the world after they graduate looking for full-time jobs. Some students get work right away, due either to these students exhibiting some sort of programmatic brilliance or to the practice observed by some technical arms of startups of hiring new developers in order to shape the way they program. The rest, unfortunately, struggle to find jobs for months. This is largely due to the fact that companies want developers with a bit of experience, and Bitmaker alumni do not have this experience when they are fresh out of the program. But how does a programmer gain experience when no company will take a chance on giving them their first one?
 
