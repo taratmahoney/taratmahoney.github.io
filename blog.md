@@ -9,7 +9,7 @@ tag: blog
 {% for post in site.categories.blog %}
 
  <img src="{{ post.image }}"> 
-<a href="{{ post.url | prepend: site.baseurl }}"><h2 class="page-list-item">{{ post.title }}</h2></a>
+<h2 class="page-list-item"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }}</a></h2>
 <p> {{ post.excerpt }} </p>
 <button><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read more</a></button>
 
