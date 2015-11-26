@@ -20,10 +20,10 @@ body {
 .site-nav a { 
 font-size:1em;
 display: inline;
-font-weight: bold;
+font-weight: 700;
 color: $gray;
+text-transform: uppercase;
 @include media($medium-screen-up){
-font-size: 1.5em;
 padding-right: 15px;
  }
 }

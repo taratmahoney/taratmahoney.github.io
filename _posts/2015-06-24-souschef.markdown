@@ -1,7 +1,7 @@
 ---
   layout: post
   title: "Souschef"
-  excerpt: "A software program that uses the Google text-to-speech API to read out a recipe to the user as he/she cooks. This app is scheduled to go live in mid July."
+  excerpt: "A software program that uses the Google text-to-speech API to read out a recipe to the user as he/she cooks. A working version of this project is available <a href='https://safe-sierra-1527.herokuapp.com/'>here.</a>"
   permalink: /work/souschef
   category: "Work"
   image: /assets/souschef-screencap.png 

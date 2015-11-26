@@ -4,23 +4,23 @@
   {% include head.html %}
 
   <body>
-    <div class={% if page.title == "Blog" %}"blog-left-pane"{% elsif page.title == "Work"%}"work-left-pane"{% else %}"left-pane"{% endif %}>
+    <div class={% if page.title == "Blog" %}"blog-left-pane"{% elsif page.title == "Work"%}"work-left-pane"{% elsif page.title == "Justin Trudeau 2015"%}"trudeau-left-pane"{% else %}"left-pane"{% endif %}>
       <header class="site-header">
         <nav class="site-nav">
           <div class="trigger">
             {% for page in site.pages %}
               {% if page.title %}
-              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">// {{ page.title }}</a>
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }}</a>
               {% endif %}
             {% endfor %}
-            <a href="mailto:tara.mahoney@me.com" target="_blank">// Email</a>
-            <a href="https://twitter.com/taratmahoney" target="_blank">// Twitter</a>
-            <a href="https://github.com/taratmahoney" target="_blank">// GitHub</a>
+            <a href="mailto:tara.mahoney@me.com" target="_blank"> Email</a>
+            <a href="https://twitter.com/taratmahoney" target="_blank">Twitter</a>
+            <a href="https://github.com/taratmahoney" target="_blank"> GitHub</a>
           </div>
         </nav>
       </header>
     </div>
-    <div class="right-pane">
+    <div class= {%if page.title == "Justin Trudeau 2015"%}"trudeau-right-pane" {%else%}"right-pane" {% endif %}>
       <a href="/"><img src="/assets/loOgo.png"></a>
       <div class="page-content">
         <div class="wrapper">

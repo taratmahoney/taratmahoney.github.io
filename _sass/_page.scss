@@ -1,7 +1,13 @@
 .page-list-item {
-  margin-top: 1.6em;
-  font-size: 1.5em;
-  color: $blue;
+  margin-top: 1em;
+  font-size: 2em;
+  color: $gray2;
+  a {
+    &:hover,
+      &:focus {
+    color: $blue;
+   }
+  }
 }
 
 .blog-left-pane{
@@ -19,7 +25,7 @@
   }
 
   @include media($large-screen-up){
-  width: 50%;
+  width: 40%;
   height: 100%;
   float: left;
   position: fixed;
@@ -43,7 +49,7 @@
   }
 
   @include media($large-screen-up){
-  width: 50%;
+  width: 40%;
   height: 100%;
   float: left;
   position: fixed;

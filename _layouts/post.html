@@ -4,9 +4,11 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h2 class="page-list-item">{{ page.category }} - {{ page.title }}</h2>
-    <p class="post-meta">{{ page.excerpt }}</p>
+    <h1 class="post-title">{% unless page.category == "Blog" %}{{ page.category }} -{% endunless %} {{ page.title }}</h1>
+    {% unless page.category == "Blog" %} <p class="post-meta">{{ page.excerpt }}</p> {% endunless %}
     <p class="post-meta">{{ page.more }}</p>
+
+    {% if page.category =="Work" %}
     <p class="image-description"> {{ page.image_description }}</p>
     <img class="post-image" src="{{ page.image }}">
     <p class="image-description"> {{ page.image_2_description }}</p>
@@ -15,6 +17,8 @@ layout: default
     <img class="post-image" src="{{ page.image_3 }}">
     <p class="image-description"> {{ page.image_4_description }} </p>
     <img class="post-image" src="{{ page.image_4 }}">
+
+    {% endif %}
   </header>
 
   <article class="post-content">
