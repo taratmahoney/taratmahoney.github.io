@@ -8,7 +8,8 @@ layout: default
     {% unless page.category == "Blog" %} <p class="post-meta">{{ page.excerpt }}</p> {% endunless %}
     <p class="post-meta">{{ page.more }}</p>
 
-    {% if page.category =="Work" %}
+    {% unless page.title =="Evolution Proxy web app" %}
+
     <p class="image-description"> {{ page.image_description }}</p>
     <img class="post-image" src="{{ page.image }}">
     <p class="image-description"> {{ page.image_2_description }}</p>
@@ -18,7 +19,7 @@ layout: default
     <p class="image-description"> {{ page.image_4_description }} </p>
     <img class="post-image" src="{{ page.image_4 }}">
 
-    {% endif %}
+    {% endunless %}
   </header>
 
   <article class="post-content">
