@@ -19,4 +19,4 @@ My goal in giving this presentation was to make the idea of freelancing after a 
 
 The slides from the presentation can be found here:
 
-<a href="/assets/Bitmaker-Keynote.pdf"> <img src="/assets/front-page.001.jpg"> </a>
+<a href="/assets/Bitmaker-Keynote.pdf"> <img src="/assets/bitmaker-keynote.jpeg"> </a>
