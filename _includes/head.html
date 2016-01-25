@@ -5,10 +5,10 @@
   
   <meta property="og:image" content="http://taramahoney.com/assets/ttm.jpg"/>
 
-  <title>Tara Mahoney{% if page.title %} - {{ page.title }}{% else %} {% endif %}</title>
+  <title>{% if page.title %} {{ page.title }}{% else %} Tara Mahoney {% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="canonical" href="taramahoney.com">
-  <meta property="og:title" content="Tara Mahoney"/>
+  <meta property="og:title" content="{% if page.title %} {{ page.title }}{% else %} Tara Mahoney {% endif %}"/>
   <meta property="og:url" content="http://taramahoney.com"/>
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">

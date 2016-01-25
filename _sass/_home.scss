@@ -1,5 +1,5 @@
 .left-pane{
-  background: url(/assets/bitmaker_pres.png) no-repeat; 
+  background: url(/assets/bitmaker-pres.jpg) no-repeat; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -13,7 +13,7 @@
   }
 
   @include media($large-screen-up){
-   background: url(/assets/bitmaker_pres.png) no-repeat; 
+   background: url(/assets/bitmaker-pres.jpg) no-repeat; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
