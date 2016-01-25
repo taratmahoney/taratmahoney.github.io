@@ -1,7 +1,7 @@
 ---
   layout: post
   title: "So, you wanna be a freelancer?"
-  excerpt: "This is a talk I gave to Bitmaker students in November 2015."
+  excerpt: "This is a talk I have given for Bitmaker students in 2015 and 2016."
   permalink: /blog/freelancing
   category: Blog
   image: "/assets/bitmaker-pres-2.jpg"
