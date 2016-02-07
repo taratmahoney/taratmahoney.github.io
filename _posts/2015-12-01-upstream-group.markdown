@@ -6,7 +6,7 @@
   category: Work
 ---
 
-A Toronto firm going through a rebrand asked me to build them a simple, one-page site that told their story and offered an engagement opportunity for potential clients. It's live <a href="www.upstreamgroup.ca">here</a>.
+A Toronto firm going through a rebrand asked me to build them a simple, one-page site that told their story and offered an engagement opportunity for potential clients. It's live <a href="http://upstreamgroup.ca/">here</a>.
 
 <img src="/assets/first-panel.png">
 
