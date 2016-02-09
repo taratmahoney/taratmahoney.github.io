@@ -21,7 +21,7 @@
       </header>
     </div>
     <div class= {%if page.title == "Justin Trudeau 2015"%}"trudeau-right-pane" {%else%}"right-pane" {% endif %}>
-      <a href="/"><img src="/assets/loOgo.png"></a>
+      {% unless page.title == "Blog" %} <a href="/"><img src="/assets/loOgo.png"></a> {% endunless %}
       <div class="page-content">
         <div class="wrapper">
           {{ content }}

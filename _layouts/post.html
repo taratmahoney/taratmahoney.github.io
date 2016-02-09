@@ -4,11 +4,9 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{% unless page.category == "Blog" %}{{ page.category }} -{% endunless %} {{ page.title }}</h1>
-    {% unless page.category == "Blog" %} <p class="post-meta">{{ page.excerpt }}</p> {% endunless %}
-    <p class="post-meta">{{ page.more }}</p>
+    <h3>{{ page.title }}</h3>
 
-    {% unless page.title =="Evolution Proxy web app" or page.title =="Upstream Strategy Group" %}
+    {% if page.title =="Acro Buddhas" or page.title =="Souschef" %}
 
     <p class="image-description"> {{ page.image_description }}</p>
     <img class="post-image" src="{{ page.image }}">
@@ -19,7 +17,7 @@ layout: default
     <p class="image-description"> {{ page.image_4_description }} </p>
     <img class="post-image" src="{{ page.image_4 }}">
 
-    {% endunless %}
+    {% endif %}
   </header>
 
   <article class="post-content">

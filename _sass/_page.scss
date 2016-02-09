@@ -1,3 +1,7 @@
+.intro{
+  font-size: 2.5em;
+}
+
 .page-list-item {
   margin-top: 1em;
   font-size: 2em;
@@ -56,4 +60,63 @@
   margin: 0;
   padding: 0;
   }
+}
+
+.post{
+
+  overflow: none;
+  margin-top: 5%;
+   @include media($medium-screen-up){
+  overflow: auto;
+  margin-bottom: 2%;
+}
+
+  h4{
+    padding-top: 0;
+    color: $gray2;
+  }
+
+  p{
+    font-size: 1.25em;
+  }
+}
+
+.col-md-6{
+
+  width: 100%;
+  display: block;
+
+  @include media($medium-screen-up){
+  width: 49%;
+  display: inline-block;
+  margin-bottom: 2%;
+  }
+}
+
+
+.left{
+
+  float: none;
+  
+
+  @include media($medium-screen-up){
+    float: left;
+  }
+}
+
+.right{
+  float: none;
+  
+
+  @include media($medium-screen-up){
+    float: right;
+  }
+}
+
+.chronicles{
+  padding-top: 5%;
+}
+
+.work-post{
+  margin-top: 5%;
 }

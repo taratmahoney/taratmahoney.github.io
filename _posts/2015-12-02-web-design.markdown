@@ -23,10 +23,3 @@ I don't believe for a second that I am a great designer and I still have a lot t
 
 
 When I look back on graphic and web design I did a year ago, I am almost shocked that I could have dreamed up something so ugly and lopsided. I can't stress enough how important it has been for me to have clients who needed design work to both a) force me out of my comfort zone in terms of design and b) practice these skills while getting paid. These people were mostly friends and family who needed work done and who trusted me to do a good job. It took me a lot longer to come up with something I was happy with then - and even longer to come up with something that incorporated the client's feedback properly - but I did enough of those projects that I can now confidently sell and talk about my work, and you can, too. 
-
-
-
-
-
-
-

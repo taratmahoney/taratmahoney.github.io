@@ -11,9 +11,10 @@
 }
 
 .post-title{
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   padding-bottom: 5%;
+  color: $gray2;
 }
 
 .trudeau-left-pane{
@@ -48,5 +49,6 @@
   float: right;
   width: 60%;
   height: 100%;
+  } 
 }
-  }
+
