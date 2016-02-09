@@ -8,8 +8,6 @@ tag: blog
 
 {% for post in site.categories.blog %}
 
- 
-
 <div class="post">
   <div class="col-md-6 left">
     <img src="{{ post.image }}"/> 
