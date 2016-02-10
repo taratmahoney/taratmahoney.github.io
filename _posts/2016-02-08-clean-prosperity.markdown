@@ -6,34 +6,30 @@
   category: Work
 ---
 
-Canadians for Clean Prosperity recently went through a rebranding period in which they pivoted their visual brand to better reflect its goals and its target audience.
+Canadians for Clean Prosperity recently went through a rebranding period in which they pivoted their visual brand to better reflect its goals and target audience.
 
 The website is now live <a href="http://www.cleanprosperity.ca/">here</a>.
 
 A few elements of the website I am particulary excited about are as follows:
 
 
-<h4> The home page with the sleek signup form</h4>
+<h2> The home page with the sleek signup form</h2>
 I have wanted to build a form like this for a long time - I love how simple it is: like filling out a piece of paper. The field bottom borders light up when you click them, so you know they are selected. I combined this form style with the two-panel design I've been into lately and produced a page element I'm super excited to explore in future projects. Gone are the days of strictly vertical layouts...
 
-<img src="/assets/ccp-home.jpg">
+<img src="/assets/ccp-home.png">
+
+<h2> The splash/sign up page </h2>
+
+<img src="/assets/join.png">
 
 
 
+<h2> The blog index page</h2>
+
+<img src="/assets/blog-index.jpg">
 
 
-<h4> The splash/sign up page </h4>
-
-<img src="/assets/ccp-splash.jpg">
-
-
-
-<h4> The blog index page</h4>
-
-<img src="/assets/blogindex.jpg">
-
-
-<h4> The blog post page </h4>
+<h2> The blog post page </h2>
 
 <img src="/assets/blogshow.jpg">
 
